@@ -15,8 +15,7 @@ import javax.persistence.Id;
 public class RefreshToken {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private long idx;
+    private Long idx;
     private String userEmail;
     private String accessToken;
     private String refreshToken;

@@ -1,5 +1,6 @@
 package com.example.security.jwt.config;
 
+import com.example.security.jwt.dto.AuthDTO;
 import com.example.security.jwt.service.CustomUserDetailService;
 import io.jsonwebtoken.*;
 import lombok.RequiredArgsConstructor;
